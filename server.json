@@ -1,134 +1,134 @@
 {
-  "episodes": [
-    {
-      "id": "a-importancia-da-contribuicao-em-open-source",      
-      "title": "Faladev #30 | A import‚ncia da contribuiÁ„o em Open Source",
-      "members": "Diego Fernandes, Jo„o Pedro, Diego Haz e Bruno Lemos",
-      "published_at": "2021-01-22 16:35:40",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
-      "description": "<p>Nesse episÛdio do Faladev, Diego Fernandes se re˙ne com Jo„o Pedro Schmitz, Bruno Lemos e Diego Haz, para discutir sobre a import‚ncia da contribuiÁ„o open source e quais desafios circulam na comunidade.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat.</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
-        "type": "audio/x-m4a",
-        "duration": 3981
+    "episodes": [
+      {
+        "id": "a-importancia-da-contribuicao-em-open-source",      
+        "title": "Faladev #30 | A import√¢ncia da contribui√ß√£o em Open Source",
+        "members": "Diego Fernandes, Jo√£o Pedro, Diego Haz e Bruno Lemos",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p>Nesse epis√≥dio do Faladev, Diego Fernandes se re√∫ne com Jo√£o Pedro Schmitz, Bruno Lemos e Diego Haz, para discutir sobre a import√¢ncia da contribui√ß√£o open source e quais desafios circulam na comunidade.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat.</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
+          "type": "audio/x-m4a",
+          "duration": 3981
+        }
+      },
+      {
+        "id": "uma-conversa-sobre-programacao-funcional-e-orientacao-a-objetos",      
+        "title": "Faladev #29 | Duas perspectivas diferentes na mesa: uma conversa sobre PF e OOP",
+        "members": "Diego Fernandes, Dani Le√£o, Laura Beatris e Rafael Camarda",
+        "published_at": "2021-01-15 13:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/funcional.jpg",
+        "description": "<p>Diego e Dani receberam Laura Beatris e Rafael Camarda na mesa do Faladev para conversarem sobre programa√ß√£o funcional e programa√ß√£o orientada a objetos.</p><p>An√°lises de mercado, conceitos na pr√°tica e desafios na ado√ß√£o de qualquer m√©todo de desenvolvimento. Tudo isso numa conversa din√¢mica e relevante para nosso p√∫blico.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat.</p>\n",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/funcional.m4a",
+          "type": "audio/x-m4a",
+          "duration": 4237
+        }
+      },
+      {
+        "id": "barreiras-e-solucoes-propostas-por-micro-servicos",      
+        "title": "Faladev #28 | Por tr√°s de barreiras e solu√ß√µes propostas por micro-servi√ßos",
+        "members": "Diego Fernandes, Dani Le√£o, Wesley Williams e Lucas Santos",
+        "published_at": "2021-01-08 13:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/microservicos.jpg",
+        "description": "<p>Os desenvolvedores Wesley Willians e Lucas Santos foram convidados para este Faladev para ter uma conversa sobre o que s√£o micro-servi√ßos e quais s√£o os desafios e as barreiras de sua aplica√ß√£o.</p><p>Nessa edi√ß√£o, Diego Fernandes e Daniele Evangelista guiam a conversa levantando t√≥picos e questionamentos relevantes sobre o assunto.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat.  #programa√ß√£o #rocketseat #programador #programador</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/microservicos.m4a",
+          "type": "audio/x-m4a",
+          "duration": 5506
+        }
+      },
+      {
+        "id": "aplicacao-de-arquiteturas-mvc-e-clean-architecture-na-pratica",      
+        "title": "Faladev #27 | Aplica√ß√£o de arquiteturas MVC e CA na pr√°tica",
+        "members": "Diego Fernandes, Dani Le√£o, Ot√°vio Lemos e Rodrigo Branas",
+        "published_at": "2020-12-18 14:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/clean.jpg",
+        "description": "<p>Diego Fernandes e Daniele Evangelista receberam Ot√°vio Lemos e Rodrigo Branas para bater um papo sobre arquiteturas modernas de desenvolvimento, aplicadas na ind√∫stria da tecnologia.</p><p>Quais s√£o os fundamentos, os princ√≠pios e a import√¢ncia de debater arquiteturas neste ecossistema?</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat.  Ficha t√©cnica Hosts: Diego Fernandes e Daniele Le√£o Evangelista Convidados: Ot√°vio Lemos  e Rodrigo Branas Roteiro: Felipe Buzzi, Beatriz Clasen e Thiago Marinho Edi√ß√£o: Thiago Santana Produ√ß√£o: Leonardo Minatti</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/clean.m4a",
+          "type": "audio/x-m4a",
+          "duration": 5044
+        }
+      },
+      {
+        "id": "entrevista-jose-valim-criador-do-elixir",      
+        "title": "Faladev #26 | Especial: entrevista exclusiva com Jos√© Valim, criador da linguagem Elixir",
+        "members": "Diego Fernandes e Jos√© Valim",
+        "published_at": "2020-12-04 15:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/josevalim.jpg",
+        "description": "<p>Nesta edi√ß√£o especial de final de temporada tivemos a oportunidade de ter uma conversa com Jos√© Valim, dev brasileiro que criou a linguagem de programa√ß√£o Elixir ‚Äî utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na cria√ß√£o de uma linguagem nova, que prop√µe ser uma alternativa eficiente no mercado da tecnologia.</p><p>Al√©m de tudo isso, Valim p√¥de falar de muito c√≥digo e sobre a sua jornada e experi√™ncia em criar uma comunidade ativa por tr√°s do open source.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos tr√™s profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/jose-valim.m4a",
+          "type": "audio/x-m4a",
+          "duration": 4396
+        }
+      },
+      {
+        "id": "o-que-e-ui-ux",      
+        "title": "Faladev #25 | O que √© UX/UI?",
+        "members": "Diego Fernandes, Tiago Luchtenberg e Thainan Librelon",
+        "published_at": "2020-10-30 14:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/design.jpg",
+        "description": "<p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos tr√™s profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse epis√≥dio, Diego Fernandes se re√∫ne com Thainan Librelon e Tiago Luchtenberg para discutir sobre: Desenvolvedor pode fazer o trabalho do UI/UX, qual impacto? Qual √© o momento ideal pra ter pessoas especializadas em UX e UI? E afinal, o que √© UI e o que √© UX?</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/design.m4a",
+          "type": "audio/x-m4a",
+          "duration": 2715
+        }
+      },
+      {
+        "id": "como-virar-lider-desenvolvimento",      
+        "title": "Faladev #24 | Como virar l√≠der de desenvolvimento?",
+        "members": "Diego Fernandes, Jo√£o Paulo e Cleiton Souza",
+        "published_at": "2020-10-23 14:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/lider-desenvolvimento.jpg",
+        "description": "<p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos tr√™s profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse epis√≥dio, Diego Fernandes se re√∫ne com Cleiton Souza e Jo√£o Paulo de Magalh√£es para discutir sobre lideran√ßa, considerando aspectos profissionais, t√©cnicos e at√© mesmo emocionais, o que envolve ser um l√≠der de desenvolvimento? Afinal, o que √© um l√≠der de desenvolvimento?</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/lider-desenvolvimento.m4a",
+          "type": "audio/x-m4a",
+          "duration": 2917
+        }
+      },
+      {
+        "id": "comunidades-e-tecnologia",      
+        "title": "FalaDev #23 | O que comunidades t√™m a ver com tecnologia?",
+        "members": "Diego Fernandes, Isabela Castilho e Jo√£o In√°cio",
+        "published_at": "2020-10-16 13:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
+        "description": "<p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso. Toda semana reunimos tr√™s profissionais da tecnologia para discutir sobre tudo que circula na √≥rbita da programa√ß√£o.</p><p>O Faladev √© um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse primeiro epis√≥dio da nova temporada, Diego Fernandes se re√∫ne com Isabela Castilho e Jo√£o In√°cio Neto (Biro) para discutir sobre comunidades e o impacto que elas exercem na carreira de devs em busca do pr√≥ximo n√≠vel. Afinal, O que √© uma comunidade e o que tem a ver com tecnologia?</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
+          "type": "audio/x-m4a",
+          "duration": 2677
+        }
+      },
+      {
+        "id": "typescript-vale-a-pena",      
+        "title": "FalaDev #22 - TypeScript vale a pena? JavaScript perde sentido?",
+        "members": "Diego Fernandes, Mayk Brito e Jo√£o Pedro",
+        "published_at": "2020-05-04 14:49:35",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
+        "description": "<p>Tr√™s programadores conversam sobre TypeScript.</p><p>Vamos discutir a usabilidade e as previs√µes da linguagem no cen√°rio da programa√ß√£o.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso.</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
+          "type": "audio/x-m4a",
+          "duration": 1772
+        }
+      },
+      {
+        "id": "estrategias-de-autenticacao-jwt-oauth",      
+        "title": "FalaDev #21 - Estrat√©gias de autentica√ß√£o, JWT, OAuth, qual usar?",
+        "members": "Diego Fernandes, Higo Ribeiro e Guilherme Pellizzetti",
+        "published_at": "2020-04-09 20:00:00",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
+        "description": "<p>Tr√™s programadores conversam sobre estrat√©gia de autentica√ß√£o.</p><p>Vamos discutir quais aspectos voc√™ deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo c√≥digo. Agora chegou o momento de falar sobre isso.</p>",
+        "file": {
+          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
+          "type": "audio/x-m4a",
+          "duration": 1463
+        }
       }
-    },
-    {
-      "id": "uma-conversa-sobre-programacao-funcional-e-orientacao-a-objetos",      
-      "title": "Faladev #29 | Duas perspectivas diferentes na mesa: uma conversa sobre PF e OOP",
-      "members": "Diego Fernandes, Dani Le„o, Laura Beatris e Rafael Camarda",
-      "published_at": "2021-01-15 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/funcional.jpg",
-      "description": "<p>Diego e Dani receberam Laura Beatris e Rafael Camarda na mesa do Faladev para conversarem sobre programaÁ„o funcional e programaÁ„o orientada a objetos.</p><p>An·lises de mercado, conceitos na pr·tica e desafios na adoÁ„o de qualquer mÈtodo de desenvolvimento. Tudo isso numa conversa din‚mica e relevante para nosso p˙blico.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat.</p>\n",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/funcional.m4a",
-        "type": "audio/x-m4a",
-        "duration": 4237
-      }
-    },
-    {
-      "id": "barreiras-e-solucoes-propostas-por-micro-servicos",      
-      "title": "Faladev #28 | Por tr·s de barreiras e soluÁıes propostas por micro-serviÁos",
-      "members": "Diego Fernandes, Dani Le„o, Wesley Williams e Lucas Santos",
-      "published_at": "2021-01-08 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/microservicos.jpg",
-      "description": "<p>Os desenvolvedores Wesley Willians e Lucas Santos foram convidados para este Faladev para ter uma conversa sobre o que s„o micro-serviÁos e quais s„o os desafios e as barreiras de sua aplicaÁ„o.</p><p>Nessa ediÁ„o, Diego Fernandes e Daniele Evangelista guiam a conversa levantando tÛpicos e questionamentos relevantes sobre o assunto.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat.  #programaÁ„o #rocketseat #programador #programador</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/microservicos.m4a",
-        "type": "audio/x-m4a",
-        "duration": 5506
-      }
-    },
-    {
-      "id": "aplicacao-de-arquiteturas-mvc-e-clean-architecture-na-pratica",      
-      "title": "Faladev #27 | AplicaÁ„o de arquiteturas MVC e CA na pr·tica",
-      "members": "Diego Fernandes, Dani Le„o, Ot·vio Lemos e Rodrigo Branas",
-      "published_at": "2020-12-18 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/clean.jpg",
-      "description": "<p>Diego Fernandes e Daniele Evangelista receberam Ot·vio Lemos e Rodrigo Branas para bater um papo sobre arquiteturas modernas de desenvolvimento, aplicadas na ind˙stria da tecnologia.</p><p>Quais s„o os fundamentos, os princÌpios e a import‚ncia de debater arquiteturas neste ecossistema?</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat.  Ficha tÈcnica Hosts: Diego Fernandes e Daniele Le„o Evangelista Convidados: Ot·vio Lemos  e Rodrigo Branas Roteiro: Felipe Buzzi, Beatriz Clasen e Thiago Marinho EdiÁ„o: Thiago Santana ProduÁ„o: Leonardo Minatti</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/clean.m4a",
-        "type": "audio/x-m4a",
-        "duration": 5044
-      }
-    },
-    {
-      "id": "entrevista-jose-valim-criador-do-elixir",      
-      "title": "Faladev #26 | Especial: entrevista exclusiva com JosÈ Valim, criador da linguagem Elixir",
-      "members": "Diego Fernandes e JosÈ Valim",
-      "published_at": "2020-12-04 15:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/josevalim.jpg",
-      "description": "<p>Nesta ediÁ„o especial de final de temporada tivemos a oportunidade de ter uma conversa com JosÈ Valim, dev brasileiro que criou a linguagem de programaÁ„o Elixir ó utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criaÁ„o de uma linguagem nova, que propıe ser uma alternativa eficiente no mercado da tecnologia.</p><p>AlÈm de tudo isso, Valim pÙde falar de muito cÛdigo e sobre a sua jornada e experiÍncia em criar uma comunidade ativa por tr·s do open source.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos trÍs profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/jose-valim.m4a",
-        "type": "audio/x-m4a",
-        "duration": 4396
-      }
-    },
-    {
-      "id": "o-que-e-ui-ux",      
-      "title": "Faladev #25 | O que È UX/UI?",
-      "members": "Diego Fernandes, Tiago Luchtenberg e Thainan Librelon",
-      "published_at": "2020-10-30 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/design.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos trÍs profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse episÛdio, Diego Fernandes se re˙ne com Thainan Librelon e Tiago Luchtenberg para discutir sobre: Desenvolvedor pode fazer o trabalho do UI/UX, qual impacto? Qual È o momento ideal pra ter pessoas especializadas em UX e UI? E afinal, o que È UI e o que È UX?</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/design.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2715
-      }
-    },
-    {
-      "id": "como-virar-lider-desenvolvimento",      
-      "title": "Faladev #24 | Como virar lÌder de desenvolvimento?",
-      "members": "Diego Fernandes, Jo„o Paulo e Cleiton Souza",
-      "published_at": "2020-10-23 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/lider-desenvolvimento.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos trÍs profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episÛdio, Diego Fernandes se re˙ne com Cleiton Souza e Jo„o Paulo de Magalh„es para discutir sobre lideranÁa, considerando aspectos profissionais, tÈcnicos e atÈ mesmo emocionais, o que envolve ser um lÌder de desenvolvimento? Afinal, o que È um lÌder de desenvolvimento?</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/lider-desenvolvimento.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2917
-      }
-    },
-    {
-      "id": "comunidades-e-tecnologia",      
-      "title": "FalaDev #23 | O que comunidades tÍm a ver com tecnologia?",
-      "members": "Diego Fernandes, Isabela Castilho e Jo„o In·cio",
-      "published_at": "2020-10-16 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso. Toda semana reunimos trÍs profissionais da tecnologia para discutir sobre tudo que circula na Ûrbita da programaÁ„o.</p><p>O Faladev È um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse primeiro episÛdio da nova temporada, Diego Fernandes se re˙ne com Isabela Castilho e Jo„o In·cio Neto (Biro) para discutir sobre comunidades e o impacto que elas exercem na carreira de devs em busca do prÛximo nÌvel. Afinal, O que È uma comunidade e o que tem a ver com tecnologia?</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2677
-      }
-    },
-    {
-      "id": "typescript-vale-a-pena",      
-      "title": "FalaDev #22 - TypeScript vale a pena? JavaScript perde sentido?",
-      "members": "Diego Fernandes, Mayk Brito e Jo„o Pedro",
-      "published_at": "2020-05-04 14:49:35",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
-      "description": "<p>TrÍs programadores conversam sobre TypeScript.</p><p>Vamos discutir a usabilidade e as previsıes da linguagem no cen·rio da programaÁ„o.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso.</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1772
-      }
-    },
-    {
-      "id": "estrategias-de-autenticacao-jwt-oauth",      
-      "title": "FalaDev #21 - EstratÈgias de autenticaÁ„o, JWT, OAuth, qual usar?",
-      "members": "Diego Fernandes, Higo Ribeiro e Guilherme Pellizzetti",
-      "published_at": "2020-04-09 20:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
-      "description": "<p>TrÍs programadores conversam sobre estratÈgia de autenticaÁ„o.</p><p>Vamos discutir quais aspectos vocÍ deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo cÛdigo. Agora chegou o momento de falar sobre isso.</p>",
-      "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1463
-      }
-    }
-  ]
-}
+    ]
+  }
