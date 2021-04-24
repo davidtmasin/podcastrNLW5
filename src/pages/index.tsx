@@ -1,3 +1,5 @@
+//Esta é a HOME
+
 // Importando GetStaticProps para poder fazer a tipagem da função getStaticProps
 import { GetStaticProps } from 'next';
 
@@ -19,13 +21,11 @@ import { convertDurationToTimeString } from '../utils/convertDurationToTimeStrin
 
 import styles from './home.module.scss';
 
-
 // Criando a tipagem das props do componente Home
 type Episode = {
     id: string;
     title: string;
     thumbnail: string;
-    description: string;
     members: string;
     duration: number;
     durationAsString: string;
@@ -40,8 +40,8 @@ type HomeProps = {
 }
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
-    
-    return (
+        
+    return (      
         <div className={styles.homepage}>
             
             <section className={styles.latestEpisodes}>
@@ -157,7 +157,6 @@ export const getStaticProps: GetStaticProps = async () => {
             publishedAt: format(parseISO(episode.published_at), 'd MMM yy', { locale: ptBR }),
             duration: Number(episode.file.duration),
             durationAsString: convertDurationToTimeString(Number(episode.file.duration)),
-            description: episode.description,
             url: episode.file.url,
         };
     })
