@@ -57,7 +57,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                />
 
                                <div className={styles.episodeDetails}>
-                                   <a href="">{episode.title}</a>
+                                   <a href={`/episodes/${episode.id}`}>{episode.title}</a>
                                    <p>{episode.members}</p>
                                    <span>{episode.publishedAt}</span>
                                    <span>{episode.durationAsString}</span>
@@ -99,7 +99,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                         </td>
 
                                         <td>
-                                            <a href="">{episode.title}</a>
+                                            <a href={`/episodes/${episode.id}`}>{episode.title}</a>
                                         </td>
 
                                         <td>{episode.members}</td>
