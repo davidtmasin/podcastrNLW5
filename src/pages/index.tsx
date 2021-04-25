@@ -70,8 +70,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                    <span>{episode.durationAsString}</span>
                                </div>
 
-                               <button type="button">
-                                   <img src="/play-green.svg" alt="Tocar episódio" title="Tocar episódio" />
+                               <button type="button" title="Tocar episódio">
+                                   <img src="/play-green.svg" alt="Tocar episódio" />
                                 </button>
                            </li>
                        )
@@ -119,8 +119,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                         <td>{episode.durationAsString}</td>
 
                                         <td>
-                                            <button type="button">
-                                                <img src="/play-green.svg" alt="Tocar episódio" title="Tocar episódio" />
+                                            <button type="button" title="Tocar episódio">
+                                                <img src="/play-green.svg" alt="Tocar episódio" />
                                             </button>
                                         </td>
                                     </tr>
