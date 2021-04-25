@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { useContext } from 'react';
+import { useContext, useRef, useEffect } from 'react';
 
 import Slider from 'rc-slider';
 // CSS do rc-slider
@@ -10,7 +10,32 @@ import { PlayerContext } from '../../contexts/PlayerContext';
 import styles from './styles.module.scss';
 
 export function  Player(){
-    const { episodeList, currentEpisodeIndex } = useContext(PlayerContext)
+    // Criando uma refs [referência] para manipular um elemento nativo do HTML <audio> usando
+    // o JS de uma forma imperativa
+    const audioRef = useRef<HTMLAudioElement>(null);
+
+    const { 
+        episodeList, 
+        currentEpisodeIndex, 
+        isPlaying, 
+        togglePlay 
+    } = useContext(PlayerContext)
+
+    // Função de efeitos colaterais
+    // Quando alguma coisa muda, algo acontece
+    useEffect(() => {
+        if(!audioRef.current){ //propriedade current traz o valor da refs
+            return; //Retorna nada
+        }
+
+        if(isPlaying){
+            audioRef.current.play();
+        }
+        else{
+            audioRef.current.pause();
+        }
+    }, [isPlaying])
+
 
     const episode = episodeList[currentEpisodeIndex]
 
@@ -61,6 +86,7 @@ export function  Player(){
                 { episode && (
                     <audio
                         src={episode.url}
+                        ref={audioRef}
                         autoPlay
                     />
                 ) }
@@ -72,8 +98,17 @@ export function  Player(){
                     <button type="button" title="Tocar anterior" disabled={!episode}>
                         <img src="/play-previous.svg" alt="Tocar anterior"/>
                     </button>
-                    <button type="button" className={styles.playButton} title="Tocar" disabled={!episode}>
-                        <img src="/play.svg" alt="Tocar"/>
+                    <button type="button" 
+                        className={styles.playButton} 
+                        title="Tocar" 
+                        disabled={!episode}
+                        onClick={togglePlay}
+                    >
+                        {
+                            isPlaying ?
+                            <img src="/pause.svg" alt="Pausar"/>
+                            : <img src="/play.svg" alt="Tocar"/>
+                        }
                     </button>
                     <button type="button" title="Tocar próxima" disabled={!episode}>
                         <img src="/play-next.svg" alt="Tocar próxima"/>

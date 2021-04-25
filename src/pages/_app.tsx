@@ -13,14 +13,22 @@ function MyApp({ Component, pageProps }) {
     const [episodeList, setEpisodeList] = useState([]);
     const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(0);
 
+    const [isPlaying, setIsPlaying] = useState(false);
+
     // Criando uma função para manipular o valor das variáveis de estado
     function play(episode) {
         setEpisodeList([episode]);
         setCurrentEpisodeIndex(0);
+        setIsPlaying(true);
+    }
+
+    // Criando uma função para controlar o Play/Pause
+    function togglePlay(){
+        setIsPlaying(!isPlaying);
     }
 
   return (
-    <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play }}>
+    <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play, isPlaying, togglePlay }}>
         {/* Todos os componentes nas linhas abaixo
         tem acesso ao valor do context */}
       <div className={styles.wrapper}>
