@@ -1,5 +1,6 @@
 //Esta é a HOME
 
+import { useContext } from 'react';
 // Importando GetStaticProps para poder fazer a tipagem da função getStaticProps
 import { GetStaticProps } from 'next';
 
@@ -18,6 +19,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
+import { PlayerContext } from '../contexts/PlayerContext';
 
 import styles from './home.module.scss';
 
@@ -40,6 +42,7 @@ type HomeProps = {
 }
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+    const { play } = useContext(PlayerContext)
         
     return (      
         <div className={styles.homepage}>
@@ -70,7 +73,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                    <span>{episode.durationAsString}</span>
                                </div>
 
-                               <button type="button" title="Tocar episódio">
+                               <button type="button" title="Tocar episódio" onClick={ () => play(episode)}>
                                    <img src="/play-green.svg" alt="Tocar episódio" />
                                 </button>
                            </li>
