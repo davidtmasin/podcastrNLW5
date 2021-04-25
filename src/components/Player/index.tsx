@@ -18,7 +18,8 @@ export function  Player(){
         episodeList, 
         currentEpisodeIndex, 
         isPlaying, 
-        togglePlay 
+        togglePlay,
+        setPlayingState
     } = useContext(PlayerContext)
 
     // Função de efeitos colaterais
@@ -88,6 +89,9 @@ export function  Player(){
                         src={episode.url}
                         ref={audioRef}
                         autoPlay
+                        onPlay={() => setPlayingState(true)}
+                        onPause={() => setPlayingState(false)}
+
                     />
                 ) }
 

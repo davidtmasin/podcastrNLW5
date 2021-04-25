@@ -27,8 +27,15 @@ function MyApp({ Component, pageProps }) {
         setIsPlaying(!isPlaying);
     }
 
+    // Uma função para alterar o valor de isPlaying
+    // Situação para ser usada quando usar o teclado para o Play/Pause
+    function setPlayingState(state: boolean){
+        setIsPlaying(state);
+    }
+
+
   return (
-    <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play, isPlaying, togglePlay }}>
+    <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play, isPlaying, togglePlay, setPlayingState }}>
         {/* Todos os componentes nas linhas abaixo
         tem acesso ao valor do context */}
       <div className={styles.wrapper}>
