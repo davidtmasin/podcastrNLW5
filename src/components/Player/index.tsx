@@ -19,7 +19,9 @@ export function  Player(){
         currentEpisodeIndex, 
         isPlaying, 
         togglePlay,
-        setPlayingState
+        setPlayingState,
+        playNext,
+        playPrevious
     } = useContext(PlayerContext)
 
     // Função de efeitos colaterais
@@ -100,7 +102,7 @@ export function  Player(){
                     <button type="button" title="Embaralhar" disabled={!episode}>
                         <img src="/shuffle.svg" alt="Embaralhar"/>
                     </button>
-                    <button type="button" title="Tocar anterior" disabled={!episode}>
+                    <button type="button" title="Tocar anterior" onClick={playPrevious} disabled={!episode}>
                         <img src="/play-previous.svg" alt="Tocar anterior"/>
                     </button>
                     <button type="button" 
@@ -115,7 +117,7 @@ export function  Player(){
                             : <img src="/play.svg" alt="Tocar"/>
                         }
                     </button>
-                    <button type="button" title="Tocar próxima" disabled={!episode}>
+                    <button type="button" title="Tocar próxima" onClick={playNext} disabled={!episode}>
                         <img src="/play-next.svg" alt="Tocar próxima"/>
                     </button>
                     <button type="button" title="Repetir" disabled={!episode}>

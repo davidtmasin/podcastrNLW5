@@ -42,7 +42,10 @@ type HomeProps = {
 }
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
-    const { play } = useContext(PlayerContext)
+    const { playList } = useContext(PlayerContext)
+
+    // Criar uma listagem de episódios
+    const episodeList = [...latestEpisodes,...allEpisodes];
         
     return (      
         <div className={styles.homepage}>
@@ -51,7 +54,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 <h2>últimos Lançamentos</h2>
 
                 <ul>
-                   {latestEpisodes.map(episode =>{
+                   {latestEpisodes.map((episode, index) =>{
                        return(
                            <li key={episode.id}>
 
@@ -73,7 +76,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                    <span>{episode.durationAsString}</span>
                                </div>
 
-                               <button type="button" title="Tocar episódio" onClick={ () => play(episode)}>
+                               <button type="button" title="Tocar episódio" onClick={ () => playList(episodeList, index)}>
                                    <img src="/play-green.svg" alt="Tocar episódio" />
                                 </button>
                            </li>
@@ -96,7 +99,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                             </tr>
                         </thead>
                         <tbody>
-                            {allEpisodes.map(episode =>{
+                            {allEpisodes.map((episode, index) =>{
                                 return(
                                     <tr key={episode.id}>
                                         <td style={{ width: 72 }}>
@@ -122,7 +125,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                         <td>{episode.durationAsString}</td>
 
                                         <td>
-                                            <button type="button" title="Tocar episódio" onClick={ () => play(episode)}>
+                                            <button type="button" title="Tocar episódio" onClick={ () => playList(episodeList, index + latestEpisodes.length)}>
                                                 <img src="/play-green.svg" alt="Tocar episódio" />
                                             </button>
                                         </td>
