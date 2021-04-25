@@ -57,6 +57,13 @@ export function  Player(){
                     </div>
                     <span>00:00</span>
                 </div>
+                {/* No REACT não pode existir um IF sem um ELSE */}
+                { episode && (
+                    <audio
+                        src={episode.url}
+                        autoPlay
+                    />
+                ) }
 
                 <div className={styles.buttons}>
                     <button type="button" title="Embaralhar" disabled={!episode}>

@@ -92,6 +92,7 @@ export default function Episode({ episode }: EpisodeProps){
                     title={episode.title}
                     objectFit="cover"
                  />
+
                  <button type="button" title="Tocar episódio">
                      <img src="/play.svg" alt="Tocar episódio" />
                  </button>
