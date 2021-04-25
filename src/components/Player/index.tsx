@@ -83,15 +83,16 @@ export function  Player(){
                     </div>
                     <span>00:00</span>
                 </div>
-                {/* No REACT não pode existir um IF sem um ELSE */}
-                { episode && (
+                {/* No REACT não pode existir um IF sem um ELSE 
+                Neste caso, esta sendo usado a situação abaixo por 
+                não ter algo que implemente o Else*/}
+                {  episode && (
                     <audio
                         src={episode.url}
                         ref={audioRef}
                         autoPlay
                         onPlay={() => setPlayingState(true)}
                         onPause={() => setPlayingState(false)}
-
                     />
                 ) }
 

@@ -35,7 +35,15 @@ function MyApp({ Component, pageProps }) {
 
 
   return (
-    <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play, isPlaying, togglePlay, setPlayingState }}>
+    <PlayerContext.Provider value={{ 
+            episodeList, 
+            currentEpisodeIndex, 
+            play, 
+            isPlaying, 
+            togglePlay, 
+            setPlayingState 
+        }}>
+            
         {/* Todos os componentes nas linhas abaixo
         tem acesso ao valor do context */}
       <div className={styles.wrapper}>
