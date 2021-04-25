@@ -57,6 +57,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                     height={192} 
                                     src={episode.thumbnail} 
                                     alt={episode.title}
+                                    title={episode.title}
                                     objectFit="cover"
                                />
 
@@ -70,7 +71,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                </div>
 
                                <button type="button">
-                                   <img src="/play-green.svg" alt="Tocar episódio"/>
+                                   <img src="/play-green.svg" alt="Tocar episódio" title="Tocar episódio" />
                                 </button>
                            </li>
                        )
@@ -101,6 +102,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                                 height={120}
                                                 src={episode.thumbnail}
                                                 alt={episode.title}
+                                                title={episode.title}
                                                 objectFit="cover"
                                             />
 
@@ -118,10 +120,9 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
                                         <td>
                                             <button type="button">
-                                                <img src="/play-green.svg" alt="Tocar episódio"/>
+                                                <img src="/play-green.svg" alt="Tocar episódio" title="Tocar episódio" />
                                             </button>
                                         </td>
-
                                     </tr>
                                 )
                             })}

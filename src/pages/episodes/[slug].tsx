@@ -1,10 +1,17 @@
+// Esta é a parte da tela que traz os episódios, aquele que é clicado na página HOME
+
 import { format, parseISO } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
+
+import Image from 'next/image';
+import Link from 'next/link';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
+
 import { api } from '../../services/api';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
+import styles from './episode.module.scss';
 
 // Tipando minha props -> episode
 type Episode = {
@@ -40,7 +47,40 @@ export default function Episode({ episode }: EpisodeProps){
     const router = useRouter(); 
 
     return(
-        <h1>{episode.title}</h1>
+        <div className={styles.episode}>
+            <div className={styles.thumbnailContainer}>
+                <Link href="/">
+                    <button type="button">
+                        <img src="/arrow-left.svg" alt="Voltar" title="Voltar" />
+                    </button>
+                </Link>
+                <Image 
+                    width={700} 
+                    height={160} 
+                    src={episode.thumbnail}
+                    objectFit="cover"
+                 />
+                 <button type="button">
+                     <img src="/play.svg" alt="Tocar episódio" title="Tocar episódio"/>
+                 </button>
+            </div>
+
+            <header>
+                <h1>{episode.title}</h1>
+                <span>{episode.members}</span>
+                <span>{episode.publishedAt}</span>
+                <span>{episode.durationAsString}</span>
+            </header>
+
+            {/* O React não converte o texto em HTML, por segurança, pois pode haver algo que não queremos que seja exibido em tela */}
+            {/* <div className={styles.description}>
+                {episode.description}
+            </div> */}
+
+            {/*     Para forçar a escrita do HTML em tela, a div será escrita da seguinte forma.
+            Lembrando que é algo perigoso, principalmente, se você não souber de onde teus dados estão vindo. */}
+                <div className={styles.description} dangerouslySetInnerHTML={{ __html: episode.description }} />
+        </div>
     )
 }
 
