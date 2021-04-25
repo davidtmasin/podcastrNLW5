@@ -1,4 +1,4 @@
-import { createContext, useState, ReactNode } from 'react';
+import { createContext, useState, ReactNode, useContext } from 'react';
 
 
 type Episode = {
@@ -19,6 +19,8 @@ type PlayerContextData ={
     playNext: () => void;
     playPrevious: () => void;
     togglePlay: () => void;
+    hasNext:boolean;
+    hasPrevious:boolean;
 
 };
 
@@ -66,18 +68,23 @@ export function PlayContextProvider({ children }: PlayerContextProviderProps){//
         setIsPlaying(state);
     }
 
+    // Implementar uma variável para verificar se tem episódio antes ou depois
+    const hasPrevious = currentEpisodeIndex > 0
+    const hasNext = (currentEpisodeIndex + 1) < episodeList.length
+
+
     // Criando a função para realizar o botão Next
     function playNext(){
         const nextEpisodeIndex = currentEpisodeIndex + 1
 
-        if(nextEpisodeIndex < episodeList.length){
+        if(hasNext){
             setCurrentEpisodeIndex(currentEpisodeIndex + 1);
         }       
     }
 
     // Criando a função para realizar o botão Previous
     function playPrevious(){
-        if(currentEpisodeIndex > 0){
+        if(hasPrevious){
             setCurrentEpisodeIndex(currentEpisodeIndex - 1);
         }
     }
@@ -91,7 +98,9 @@ export function PlayContextProvider({ children }: PlayerContextProviderProps){//
                 togglePlay,
                 playNext,
                 playPrevious, 
-                setPlayingState 
+                setPlayingState,
+                hasNext,
+                hasPrevious
             }}
         >   
         
@@ -101,4 +110,10 @@ export function PlayContextProvider({ children }: PlayerContextProviderProps){//
 
     )
 
+}
+
+// Uma constante que será útil para ser exportada a outros componentes
+// pois, irá permitir trazer o uso do CONTEXT, que já existe declarado
+export const usePlayer = () => {
+    return useContext(PlayerContext)
 }

@@ -11,6 +11,7 @@ import { api } from '../../services/api';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
 import styles from './episode.module.scss';
+import { usePlayer } from '../../contexts/PlayerContext';
 
 // Tipando minha props -> episode
 type Episode = {
@@ -66,6 +67,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 
 export default function Episode({ episode }: EpisodeProps){
+
+    const { play } = usePlayer();
+
     //Todo método que inicia com "use" é um reactHook e só pode ser utilizado dentro de componentes
     // Não funcionará dentro do getStaticProps
 
@@ -93,7 +97,7 @@ export default function Episode({ episode }: EpisodeProps){
                     objectFit="cover"
                  />
 
-                 <button type="button" title="Tocar episódio">
+                 <button type="button" title="Tocar episódio" onClick={() => play(episode)}>
                      <img src="/play.svg" alt="Tocar episódio" />
                  </button>
             </div>
